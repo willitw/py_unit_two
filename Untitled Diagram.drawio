@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T17:00:12.394Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ogsufU-zMcS9LCnDhlLS" version="20.4.0" type="github"><diagram id="_EmCTCWS1lqvhxd-YoTF" name="Page-1">3VjbcpswEP0aZpqHdJCwifMYO5dOJ+l0Ju0kflRhC2qF5BEihn59JRBgrCZDLw5pXgx7kNDq7Nn1Ci9YZeWVJJv0RsTAPOzHpRecexjPQ6R/DVA1QIgskEgaN9AOcEt/gAV9ixY0hnwwUAnBFN0MwUhwDpEaYERKsR0O+yrYcNUNScABbiPCXPSOxipt0MXc7/F3QJO0XRn59klG2sEWyFMSi+0OFFx4wUoKoZq7rFwBM9y1vDTzLh952jkmgasxE4LF57Vc5jSq3p/cfPgUwA3/fhw0b3kgrLAbts6qqmUAYk2INYVUqUgEJ+yiR5dSFDwGs4yvrX7MtRAbDSINfgOlKhtdUiihoVRlzD5t1jQLPbo3C+WikBE8saFWI0QmoJ4Yh7sIaOWCyEDJSs+TwIiiD0M/iNVQ0o3radY3lunfYB05rC8hodxsWYpEkswNAmNa8YbsbUoV3G5IzcJW59yvqHwAqaB8mkx38+0EK9hqaG57+aNW0+mO9Bf+gdiavzaN4pEanU2pUeywfqWdxX69aUG5yk05lSIzO0lB/xY5SH15U2qXVkY/6Kg2sTXxkRO3w4t5X814pJrDQ6n55LWpeTZSzeFfqrmeeiYlqXYGtErs3vzRAH34Zyd7xSzw9yLYvLGPZ+fan4d45oQ4lmTb5QmjHEzyCN5BeSQB+ATpMXtp6XH6ItIDSqruzfS3eG7N9c6j89K+ujYqa/zLLsYfmVSLSdsYNElsuPb9vg2AMda7Rh+b2jpAcMKRsUH+lMEJnUTSh5qo0EtDV3ZIVNQW4YmOzQR/zvud5tTVZ+GQdq2LtUb0hs88HDLtwPKL7nLCxNxVZvBx3ep4xs9Ls7UWK93sODyjwZDRYGzzfjBG0es7YY6tzWjaM6bvEH8OCmTWCNr2HUxszFWYxh1IlNr2xAlRHwD0PGfQPSGj08mF7B6IbG3A/0ltQIvnKw7a7L9sNX11/3kwuPgJ</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-30T17:06:39.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="snZ0s0xiDclWjao-ihsp" version="20.3.6" type="github">
+  <diagram id="_EmCTCWS1lqvhxd-YoTF" name="Page-1">
+    <mxGraphModel dx="841" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="38UYrBsicyJ7MNT3eMnk-1" target="38UYrBsicyJ7MNT3eMnk-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-1" value="Begin program" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="38UYrBsicyJ7MNT3eMnk-2" target="38UYrBsicyJ7MNT3eMnk-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HxaYz7vMxQxWTl2UJwOW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="38UYrBsicyJ7MNT3eMnk-2" target="HxaYz7vMxQxWTl2UJwOW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-2" value="Get 2 points from the user (point 1) (point 2)&lt;br&gt;(px1, py1)&amp;nbsp; (px2, py2)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="38UYrBsicyJ7MNT3eMnk-4" target="38UYrBsicyJ7MNT3eMnk-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-4" value="draw the lines on the screen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="HxaYz7vMxQxWTl2UJwOW-3" target="38UYrBsicyJ7MNT3eMnk-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="38UYrBsicyJ7MNT3eMnk-6" target="38UYrBsicyJ7MNT3eMnk-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-6" value="calculate the acute angle" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-8" value="&amp;nbsp;slope of ine 1:&lt;br&gt;y2 - y1 / x2 - x1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="38UYrBsicyJ7MNT3eMnk-8" target="38UYrBsicyJ7MNT3eMnk-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HxaYz7vMxQxWTl2UJwOW-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="38UYrBsicyJ7MNT3eMnk-10" target="HxaYz7vMxQxWTl2UJwOW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-10" value="Determine the slope or each line" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-12" value="slope of line 2:&lt;br&gt;y2 - y1 / x2 - x1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HxaYz7vMxQxWTl2UJwOW-1" value="Convert input to integers" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HxaYz7vMxQxWTl2UJwOW-3" value="Starting point of &quot;goto&quot; is always 0,0" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
