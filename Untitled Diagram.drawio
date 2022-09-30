@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T17:06:39.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="snZ0s0xiDclWjao-ihsp" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-30T18:16:22.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Dh3XlIRMHvUOIdrTrexX" version="20.3.6" type="github">
   <diagram id="_EmCTCWS1lqvhxd-YoTF" name="Page-1">
     <mxGraphModel dx="841" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="38UYrBsicyJ7MNT3eMnk-6" value="calculate the acute angle" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="38UYrBsicyJ7MNT3eMnk-8" value="&amp;nbsp;slope of ine 1:&lt;br&gt;y2 - y1 / x2 - x1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-8" value="&amp;nbsp;slope (m1) of ine 1:&lt;br&gt;py1 - 0 / px1 - 0" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="38UYrBsicyJ7MNT3eMnk-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="38UYrBsicyJ7MNT3eMnk-8" target="38UYrBsicyJ7MNT3eMnk-12" edge="1">
@@ -54,7 +54,15 @@
         <mxCell id="38UYrBsicyJ7MNT3eMnk-10" value="Determine the slope or each line" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="38UYrBsicyJ7MNT3eMnk-12" value="slope of line 2:&lt;br&gt;y2 - y1 / x2 - x1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="HxaYz7vMxQxWTl2UJwOW-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="38UYrBsicyJ7MNT3eMnk-12" target="HxaYz7vMxQxWTl2UJwOW-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="280" />
+              <mxPoint x="190" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38UYrBsicyJ7MNT3eMnk-12" value="slope (m2) of line 2:&lt;br&gt;py2 - py1 / px2 - px1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HxaYz7vMxQxWTl2UJwOW-1" value="Convert input to integers" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -62,6 +70,15 @@
         </mxCell>
         <mxCell id="HxaYz7vMxQxWTl2UJwOW-3" value="Starting point of &quot;goto&quot; is always 0,0" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HxaYz7vMxQxWTl2UJwOW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HxaYz7vMxQxWTl2UJwOW-5" target="HxaYz7vMxQxWTl2UJwOW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HxaYz7vMxQxWTl2UJwOW-5" value="get absolute value of slope 1 - slope 2, assign it to slope_diff" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HxaYz7vMxQxWTl2UJwOW-7" value="angle = slope_diff /&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
