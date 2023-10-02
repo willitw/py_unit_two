@@ -3,7 +3,9 @@
 #9/28/23
 #converts money to least amount of bills
 
-amount = float(input("Enter an amount in dollars and cents: "))
+amount = float(input("Enter an amount in dollars and cents:"))
+
+print("TOO HEAVY" if input("Enter a phrase: ").lower() == "your mother" else "")
 
 
 number_of_hundreds = amount // 100
